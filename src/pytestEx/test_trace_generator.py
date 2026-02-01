@@ -17,3 +17,6 @@ def trace_test(context : BrowserContext):
 def test_method(page: Page):
     page.goto("https://www.amazon.in")
     page.get_by_text("MX Player").click()
+
+
+# use command to view traces - > playwright show-trace trace.zip 

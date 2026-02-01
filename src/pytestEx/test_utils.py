@@ -16,6 +16,3 @@ def test_divide_numbers():
 
 def test_power_numbers():
     assert Utils.power(2, 3) == 100
-
-def dictionary_example():
-    return {"name": "Karan", "age": 30, "city": "New York"}

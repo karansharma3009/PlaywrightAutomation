@@ -17,3 +17,6 @@ def test_example(page: Page):
     title = page.title()
     print("-----"+title)
     assert title == "Amazon miniTV - Watch Free Web Series, Movies, Short Films & K-Dramas Online"
+
+
+# run  => pytest --headed --slowmo=500 test_pytest_playwright_plugin_ex_3.py

@@ -28,8 +28,8 @@ jobs:
         pip install playwright pytest pytest-playwright
         playwright install
 
-    - name : Verify Browser are  installation
-      run: pytom -m playwright install chromium -with-deps
+    - name: Verify Browsers are installed
+      run: python -m playwright install chromium --with-deps
     
     - name: Run Playwright tests
       run: |
@@ -37,7 +37,7 @@ jobs:
     
     - name: Upload test results
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: test-results-${{ matrix.python-version }}
         path: |

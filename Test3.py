@@ -20,4 +20,3 @@ with sync_playwright() as playwright:
     page.get_by_role("button",name="Login").highlight()
     #page.pause()   
     browser.close() 
-

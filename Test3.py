@@ -18,5 +18,6 @@ with sync_playwright() as playwright:
     page.get_by_role("button",name="Continue").click()
     page.get_by_role("input",name="password").type("Holidays0987",delay=100)
     page.get_by_role("button",name="Login").highlight()
-    page.pause()   
+    #page.pause()   
     browser.close() 
+

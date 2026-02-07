@@ -8,3 +8,8 @@ class HomePage:
 
     def go_to_mx_player_tab(self):
         self.page.get_by_text("MX Player").click()
+
+    def go_to_fashion_tab(self):
+        self.page.get_by_text("Amazon Pay").click()
+        
+    

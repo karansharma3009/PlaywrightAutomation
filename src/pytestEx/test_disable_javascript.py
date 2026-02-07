@@ -30,4 +30,5 @@ def browser_context_args(browser:Browser): # special fixture name to modify brow
 def test_disable_javascript(page: Page):
     page.goto("https://www.playwright.dev/docs/intro")
     title = page.title()
-    page.pause()
+    #page.pause()
+    

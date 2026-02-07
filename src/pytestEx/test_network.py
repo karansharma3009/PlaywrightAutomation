@@ -34,5 +34,7 @@ def test_network_events_request(page: Page):
      # Event listener for network responsesß
     page.goto("https://www.amazon.in")
     page.get_by_text("MX Player").click()
-    page.pause()
+    #button = page.get_by_text("MX Player")
+    #page.pause()
+    #expect(button)
     
